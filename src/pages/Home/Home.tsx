@@ -4,7 +4,7 @@ import ProductCard from '../../components/ProductCard/ProductCard';
 import { ProductCardSkeleton } from '../../components/Loading/Loading';
 import SearchBar from '../../components/SearchBar/SearchBar';
 import './Home.module.css';
-import banner from '../../assets/banner.jpg';
+import banner from '../../assets/banner_3.webp';
 
 const Home: React.FC = () => {
   const { products, loading, error } = useProducts();
