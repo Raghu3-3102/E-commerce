@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Loading.module.css';
 
 export const ProductCardSkeleton: React.FC = () => {
