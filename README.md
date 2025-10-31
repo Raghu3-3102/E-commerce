@@ -1,12 +1,12 @@
 # E-commerce
 E-commerce store  website
 
-# 🛒 E-commerce Store
+#  E-commerce Store
 A modern and responsive e-commerce web application built using **React + TypeScript + Tailwind CSS**.
 
 ---
 
-## 🚀 Prerequisites
+##  Prerequisites
 
 Make sure these are installed:
 
@@ -15,7 +15,7 @@ Make sure these are installed:
 
 ---
 
-## 🔧 How to Run the Project
+##  How to Run the Project
 
 ```bash
 # Clone the repository
@@ -32,7 +32,7 @@ npm run dev
 
 
 
-# Architechture  and decision
+## Architecture & Decisions
    
     src/
 ├── components/          # UI components (Header, ProductCard, SearchBar, Loading)
@@ -75,7 +75,7 @@ Code splitting with React.lazy
 Memoization with useMemo
 
 
-# Known Issues / Trade-offs
+## Known Issues / Trade-offs
 
 - Fake Store API occasionally responds slowly (external API limitation).
 - React Context is used for global state — lightweight for now, but may not scale like Redux.
