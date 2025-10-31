@@ -40,7 +40,7 @@ npm run dev
 ├── hooks/               # Custom hooks (useProducts)
 ├── pages/               # Pages (Home, ProductDetail, Cart)
 ├── types/               # TypeScript interfaces
-└── utils/               # Helper functions
+└── Services/               # Helper functions
 
 
 # State Management (React Context + TypeScript)
