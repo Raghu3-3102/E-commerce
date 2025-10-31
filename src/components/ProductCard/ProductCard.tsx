@@ -11,7 +11,7 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const { addToCart } = useCart();
-  console.log("Add to cart",addToCart)
+  
 
   const handleAddToCart = (e: React.MouseEvent): void => {
     e.preventDefault();
